@@ -13,8 +13,8 @@ public class MainApp {
         driver.get(Constants.URL);
 
         WebTables webTables = new WebTables();
-        WebTables.registrationForm("StellaMakahaube", "makahaubes@gmail.com", "00000000");
-        WebTables.loginForm("StellaMakahaube", "00000000");
+        webTables.registrationForm("StellaMakahaube", "makahaubes@gmail.com", "00000000");
+        webTables.loginForm("StellaMakahaube", "00000000");
 
         try {
             Thread.sleep(3000);
