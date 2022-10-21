@@ -40,5 +40,4 @@ public class DriverSingleton {
         instance = null;
         driver.quit();
     }
-
 }

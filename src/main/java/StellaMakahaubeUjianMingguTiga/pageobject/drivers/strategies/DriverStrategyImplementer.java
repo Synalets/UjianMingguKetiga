@@ -3,10 +3,10 @@ package StellaMakahaubeUjianMingguTiga.pageobject.drivers.strategies;
 import StellaMakahaubeUjianMingguTiga.pageobject.utils.Constants;
 
 public class DriverStrategyImplementer {
-    public static StellaMakahaubeUjianMingguTiga.pageobject.drivers.strategies.DriverStrategy chooseStrategy(String strategy) {
-        switch (strategy) {
-            case Constants.CHROME:
-                return new StellaMakahaubeUjianMingguTiga.pageobject.drivers.strategies.Chrome();
+    public static DriverStrategy chooseStrategy(String strategy) {
+            switch (strategy) {
+                case Constants.CHROME:
+                    return new Chrome();
 
             default:
                 return null;
